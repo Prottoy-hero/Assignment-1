@@ -83,6 +83,7 @@ body{
     font-size: 75px;
     font-weight: 700;
     text-align: center;
+    color: white;
 }
 .banner-heading{
     color: rgba(48, 184, 104, 1);
@@ -125,7 +126,7 @@ body{
     color: #30bb68;
     font-size: 16px;
     border-radius: 1000px ;
-    background-color: #627382;
+    background-color: white;
     padding: 5px;
     width: 229px;
     height: 35px;
@@ -134,7 +135,41 @@ body{
     display: flex;
 }
 
-.button .btn{
-    display: flex;
+/* .btn-parent .btn{
+    /* display: flex; */
+    /* gap: 10px; */
+
+
+#child{
+    /* display: flex; */
     gap: 10px;
+}
+
+.brain{
+    display:flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.brain h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.brain h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #30bb68;
+}
+
+.brain p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #627382;
+    margin-bottom: 20px;
+}
+
+.circle{
+    display: flex;
+    gap: 5px;
 }
