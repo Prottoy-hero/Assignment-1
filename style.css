@@ -1,0 +1,140 @@
+
+/* body  */
+body{
+    margin: 0 auto;
+    max-width: 1600px;
+    background: rgba(255, 255, 255, 1);
+}
+.btn{
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 15px;
+    background-color: rgba(70, 145, 101, 1);
+    color: white;
+    cursor: pointer;
+}
+
+
+.navber div{
+    font-size: 20px;
+    display: flex;
+    gap: 35px;
+}
+
+/* navber */
+
+.navber{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.header{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    /* background: var(--#FFFFFF, rgba(255, 255, 255, 1)); */
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.note p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.card img{
+    background-color: red;
+    color: white;
+    border-radius:25px ;
+    padding: 10px;
+    width: 30px;
+    margin: 0 auto;
+}
+
+.card-parent{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    border: 5px solid rgb(248, 247, 247);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    /* height: 300px; */
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    color: (98, 115, 130, 1);
+    box-shadow: 10px;
+}
+
+/* banner */
+.banner-heading-parent{
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+}
+.banner-heading{
+    color: rgba(48, 184, 104, 1);
+}
+
+.banner{
+    text-align: center;
+    padding: 70px 120px 225px 120px;
+    background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    background-size: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.banner .btn{
+    margin: 0 5px 10px 5px;
+}
+
+.btn-2{
+    background-color:rgb(117, 111, 111);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 15px;
+    cursor: pointer;
+    border: 10px;
+    color: white;
+}
+
+.banner .banner-early{
+    color: #30bb68;
+    font-size: 16px;
+    border-radius: 1000px ;
+    background-color: #627382;
+    padding: 5px;
+    width: 229px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.button .btn{
+    display: flex;
+    gap: 10px;
+}
