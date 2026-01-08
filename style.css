@@ -140,10 +140,9 @@ body{
     /* gap: 10px; */
 
 
-#child{
-    /* display: flex; */
-    gap: 10px;
-}
+/* #child{
+    display: flex;
+} */
 
 .brain{
     display:flex;
@@ -172,4 +171,21 @@ body{
 .circle{
     display: flex;
     gap: 5px;
+}
+
+.early-access{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.early-access h2{
+    font-size: 50px;
+    font-weight: 1300;
+}
+
+.early-access p{
+    font-size: 20px;
+    font-weight: 1280;
+    color: #627382;
 }
