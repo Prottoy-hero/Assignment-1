@@ -13,6 +13,7 @@ body{
     background-color: rgba(70, 145, 101, 1);
     color: white;
     cursor: pointer;
+    border: none;
 }
 
 
@@ -135,14 +136,24 @@ body{
     display: flex;
 }
 
-/* .btn-parent .btn{
-    /* display: flex; */
-    /* gap: 10px; */
-
-
-/* #child{
+.btn-parent{
     display: flex;
-} */
+    gap: 20px;
+}
+.btn-parent .btn{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.btn-parent .btn-2{
+    background-color: transparent;
+    border: 1px solid gray;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
 
 .brain{
     display:flex;
@@ -176,9 +187,17 @@ body{
 .early-access{
     margin-top: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.early-access .btn{
+    display: flex;
+    gap: 10px;
+}
 .early-access h2{
     font-size: 50px;
     font-weight: 1300;
@@ -201,8 +220,8 @@ body{
 
 .footer-child h4{
     font-size: 25px;
-    font-weight: 113;
-    color: #FFFFFF;
+    font-weight: 1130;
+    /* color: #FFFFFF; */
 }
 
 .footer p{
