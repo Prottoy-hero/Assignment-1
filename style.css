@@ -1,3 +1,7 @@
+*{
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+}
 
 /* body  */
 body{
@@ -7,7 +11,6 @@ body{
 }
 .btn{
     border-radius: 5px;
-    font-size: 16px;
     font-weight: 600;
     padding: 12px 15px;
     background-color: rgba(70, 145, 101, 1);
@@ -17,8 +20,7 @@ body{
 }
 
 
-.navber div{
-    font-size: 20px;
+.navber div{     
     display: flex;
     gap: 35px;
 }
@@ -32,8 +34,7 @@ body{
 }
 
 .header{
-    margin-top: 35px;
-    margin-bottom: 30px;
+    padding:16px 0  ;
     /* background: var(--#FFFFFF, rgba(255, 255, 255, 1)); */
 }
 
@@ -50,7 +51,7 @@ body{
 }
 
 .card img{
-    background-color: red;
+    background-color: #f95555;
     color: white;
     border-radius:25px ;
     padding: 10px;
@@ -81,35 +82,66 @@ body{
 
 /* banner */
 .banner-heading-parent{
-    font-size: 75px;
-    font-weight: 700;
+    font-size: 72px;
     text-align: center;
     color: white;
+    opacity: 90%;
 }
+
+.container-1 {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(48, 184, 104, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-2 {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(48, 184, 104, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-3 {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(48, 184, 104);
+  border-radius: 50%;
+}
+
 .banner-heading{
     color: rgba(48, 184, 104, 1);
+    
 }
 
 .banner{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 70px 120px 225px 120px;
     background-image: url("./assets/hero-bg.png");
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     justify-content: center;
-    background-size: 100%;
+    /* background-size: 100%; */
     align-items: center;
-    display: flex;
-    flex-direction: column;
+    /* gap: 0; */
 }
+
+
 .banner p{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
     color: white;
 }
 
 .banner .btn{
     margin: 0 5px 10px 5px;
+    width:250px ;
+    font-size: 16px;
 }
 
 .btn-2{
@@ -125,7 +157,6 @@ body{
 
 .banner .banner-early{
     color: #30bb68;
-    font-size: 16px;
     border-radius: 1000px ;
     background-color: white;
     padding: 5px;
@@ -134,6 +165,7 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    gap: 10px;
 }
 
 .btn-parent{
@@ -218,17 +250,27 @@ body{
     /* align-items: center; */
     justify-content: space-between;
     margin-top: 120px;
-    padding: 50px 0 20px 10px;
+    padding: 120px ;
+    padding-bottom: 30px;
     border: none;
     border-radius: 10px;
     background-color: #073156;
     color: white;
 }
 
+
+.footer-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer-child h4{
     font-size: 25px;
     font-weight: 1130;
     /* color: #FFFFFF; */
+    margin: 0;
 }
 
 .footer p{
@@ -237,34 +279,36 @@ body{
     /* color: #fafafa; */
     text-align: center;
     align-items: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 
 }
 
-.footer-child{
+.social-links{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-links-icons{
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-bottom: 50px;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-left: 50px;
-    padding-right: 60px;
 }
 
 .social-links .social-link-image{
     border: none;
-    border-radius: 1900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
     padding:5px;
     background-color: white;
     color: black;
     width: 20px;
     height: 20px;
-        /* padding-bottom: 1px; */
+    cursor: pointer;
 }
 
-/* .footer .footer-hr{
-    background-color: rgb(220, 69, 18);
-    color: red;
-} */
+.footer .footer-hr{
+    border: 1px solid gray;
+}
